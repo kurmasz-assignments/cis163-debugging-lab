@@ -9,7 +9,7 @@ public class Buggy {
   }
 
   public static int factorial_v1(int x) {
-    int answer = 1;
+    int answer = 0;
     for (int i = 0; i < x; ++i) {
       answer *= (i+1);
     }
